@@ -1,4 +1,4 @@
-# 📘 常用Git命令管理指南
+# 📘 常用Git仓库管理指令
 
 ![Git Logo](https://git-scm.com/images/logo@2x.png) *适用于GitHub仓库的标准化操作流程*
 
