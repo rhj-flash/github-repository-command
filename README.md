@@ -24,6 +24,8 @@ git pull origin master
 git push origin master
 7. 查看精简提交历史（有提交记录则成功）
 git log --oneline
+8.强制推送，覆盖仓库旧内容（慎用）
+git push origin master --force
 ```
 ## 2. 克隆仓库
 ```bash
