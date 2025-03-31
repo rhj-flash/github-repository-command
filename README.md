@@ -34,7 +34,9 @@ git clone 仓库路径
 git clone https://github.com/username/repository.git
 ```
 ## 3. 新建仓库
-0.github创建新仓库
+```bash
+1.github创建新仓库
+2.本地文件夹新建.gitignore文件
 
 （以下是Git指令）
 1. 删除旧的.git文件夹（保留你的代码文件）
@@ -49,6 +51,7 @@ git commit -m "1.0"
 git remote add origin https://github.com/你的用户名/XingYun-Clean.git
 6. 强制推送到新仓库（因为是全新仓库，不需要--force）
 git push -u origin master
+```
 
 
 
