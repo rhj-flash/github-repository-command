@@ -33,10 +33,22 @@ git clone 仓库路径
 
 git clone https://github.com/username/repository.git
 ```
+## 3. 新建仓库
+0.github创建新仓库
 
-
-
-
+（以下是Git指令）
+1. 删除旧的.git文件夹（保留你的代码文件）
+rm -rf .git
+2. 初始化全新的Git仓库
+git init
+3. 添加所有文件到暂存区
+git add .
+4. 提交初始版本
+git commit -m "1.0"
+5. 关联新仓库的远程地址
+git remote add origin https://github.com/你的用户名/XingYun-Clean.git
+6. 强制推送到新仓库（因为是全新仓库，不需要--force）
+git push -u origin master
 
 
 
