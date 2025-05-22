@@ -26,6 +26,8 @@ git push origin master
 git log --oneline
 8.强制推送，覆盖仓库旧内容（慎用）
 git push origin master --force
+9.本地领先一个提交
+git push origin master
 ```
 ## 2. 克隆仓库
 ```bash
