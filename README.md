@@ -28,6 +28,9 @@ git log --oneline
 git push origin master --force
 9.本地领先一个提交
 git push origin master
+10.切换分支main/master/
+git checkout main
+
 ```
 ## 2. 克隆仓库
 ```bash
