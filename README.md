@@ -34,6 +34,9 @@ git checkout main
 git pull origin master --allow-unrelated-histories
 12.去除分支的Merge状态(master|MERGING)
 git merge --abort
+13.推main分支到仓库
+git push origin main
+
 
 ```
 ## 2. 克隆仓库
