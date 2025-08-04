@@ -20,7 +20,7 @@ git status
 git commit -m "第一次提交"
 5. 拉取远程最新变更用以避免提交冲突（可能在github网站上修改了一些文件的内容比如readm.md文件.导致和本地文件不同.所以要先拉取合并）
 git pull origin master
-6. 推送本地提交到远程仓库
+6. 推送本地提交到远程仓库master分支
 git push origin master
 7. 查看精简提交历史（有提交记录则成功）
 git log --oneline
@@ -34,7 +34,7 @@ git checkout main
 git pull origin master --allow-unrelated-histories
 12.去除分支的Merge状态(master|MERGING)
 git merge --abort
-13.推main分支到仓库
+13.推main分支到仓库main分支
 git push origin main
 
 
