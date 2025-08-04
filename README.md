@@ -30,6 +30,10 @@ git push origin master --force
 git push origin master
 10.切换分支main/master/
 git checkout main
+11.强制拉仓库至本地
+git pull origin master --allow-unrelated-histories
+12.去除分支的Merge状态(master|MERGING)
+git merge --abort
 
 ```
 ## 2. 克隆仓库
