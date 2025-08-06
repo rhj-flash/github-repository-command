@@ -36,6 +36,8 @@ git pull origin master --allow-unrelated-histories
 git merge --abort
 13.推main分支到仓库main分支
 git push origin main
+14.建立新的名叫change的分支并切换到该分支
+git checkout -b change
 
 
 ```
